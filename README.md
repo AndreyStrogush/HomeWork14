@@ -1,0 +1,3 @@
+"# HomeWork14"
+Patterns
+
