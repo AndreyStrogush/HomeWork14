@@ -3,7 +3,7 @@ package com.homeworks.factorymethodd.builder;
 public class ShopKeeper {
     public static Juice takeOrder(String juiceType) {
 
-        JuiceMaker juiceMaker = null;
+        JuiceMaker juiceMaker;
 
         if (juiceType.equalsIgnoreCase(Juice.ORANGE_NAME)) {
             juiceMaker = new OrangeJuice();
