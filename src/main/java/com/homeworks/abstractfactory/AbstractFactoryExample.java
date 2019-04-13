@@ -1,4 +1,4 @@
-package com.homeworks.abstract_factory;
+package com.homeworks.abstractfactory;
 
 public class AbstractFactoryExample {
     public static void main(String[] args) {

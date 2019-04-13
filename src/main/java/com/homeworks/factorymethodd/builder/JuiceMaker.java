@@ -1,15 +1,12 @@
-package com.homeworks.factory_methodd.builder;
+package com.homeworks.factorymethodd.builder;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
 public abstract class JuiceMaker {
     private Juice juice;
-
-    public Juice getJuice() {
-        return juice;
-    }
-
-    public void setJuice(Juice juice) {
-        this.juice = juice;
-    }
 
     public final Juice makeJuice() {
         Juice juice = createJuice();

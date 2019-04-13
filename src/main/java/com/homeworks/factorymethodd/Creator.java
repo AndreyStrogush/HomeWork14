@@ -1,4 +1,4 @@
-package com.homeworks.factory_methodd;
+package com.homeworks.factorymethodd;
 
 public abstract class Creator {
     public abstract void factoryMethod();

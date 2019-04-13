@@ -1,11 +1,11 @@
-package com.homeworks.abstract_factory;
+package com.homeworks.abstractfactory;
 
 public class FactoryProvider {
     public static AbstractFactory getFactory(String choice) {
         AbstractFactory abstractFactory = null;
-        if ("Loan".equalsIgnoreCase(choice)) {
+        if (AbstractFactory.LOAN.equalsIgnoreCase(choice)) {
             abstractFactory = new LoanFactory();
-        } else if ("Account".equalsIgnoreCase(choice)) {
+        } else if (AbstractFactory.ACCOUNT.equalsIgnoreCase(choice)) {
             abstractFactory = new AccountFactory();
         }
         return abstractFactory;

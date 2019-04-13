@@ -1,7 +1,7 @@
-package com.homeworks.factory_methodd;
+package com.homeworks.factorymethodd;
 
-import com.homeworks.factory_methodd.proxy.ProxyInternet;
-import com.homeworks.factory_methodd.proxy.SchoolInternet;
+import com.homeworks.factorymethodd.proxy.ProxyInternet;
+import com.homeworks.factorymethodd.proxy.SchoolInternet;
 
 public class ProxyCreator extends Creator {
     @Override

@@ -1,4 +1,4 @@
-package com.homeworks.factory_methodd.singleton;
+package com.homeworks.factorymethodd.singleton;
 
 public class SingletonProduct {
     private static SingletonProduct instance;

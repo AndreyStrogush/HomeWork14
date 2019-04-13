@@ -1,6 +1,6 @@
-package com.homeworks.factory_methodd;
+package com.homeworks.factorymethodd;
 
-import com.homeworks.factory_methodd.singleton.SingletonProduct;
+import com.homeworks.factorymethodd.singleton.SingletonProduct;
 
 public class SingeltonCreator extends Creator {
     @Override

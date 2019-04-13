@@ -1,4 +1,4 @@
-package com.homeworks.factory_methodd;
+package com.homeworks.factorymethodd;
 
 public class FactoryMethodExample {
     public static void main(String[] args) {

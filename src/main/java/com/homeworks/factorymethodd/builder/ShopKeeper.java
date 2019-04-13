@@ -1,13 +1,13 @@
-package com.homeworks.factory_methodd.builder;
+package com.homeworks.factorymethodd.builder;
 
 public class ShopKeeper {
     public static Juice takeOrder(String juiceType) {
 
         JuiceMaker juiceMaker = null;
 
-        if (juiceType.equalsIgnoreCase("orange")) {
+        if (juiceType.equalsIgnoreCase(Juice.ORANGE_NAME)) {
             juiceMaker = new OrangeJuice();
-        } else if (juiceType.equalsIgnoreCase("apple")) {
+        } else if (juiceType.equalsIgnoreCase(Juice.APPLE_NAME)) {
             juiceMaker = new AppleJuice();
         } else {
             System.out.println("Sorry we don't take order for  " + juiceType);

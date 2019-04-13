@@ -1,4 +1,4 @@
-package com.homeworks.abstract_factory;
+package com.homeworks.abstractfactory;
 
 public interface Account {
     public void getInterestRate();
