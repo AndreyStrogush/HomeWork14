@@ -10,7 +10,8 @@ public class ShopKeeper {
         } else if (juiceType.equalsIgnoreCase(Juice.APPLE_NAME)) {
             juiceMaker = new AppleJuice();
         } else {
-            System.out.println("Sorry we don't take order for  " + juiceType);
+            System.out.println("Sorry we don't take order for  " + juiceType + "would you take an orange juice?");
+            juiceMaker = new OrangeJuice();
         }
         return juiceMaker.makeJuice();
     }

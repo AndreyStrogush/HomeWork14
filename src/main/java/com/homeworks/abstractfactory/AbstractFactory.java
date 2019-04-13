@@ -7,6 +7,7 @@ public abstract class AbstractFactory {
     protected static final String CURRENT = "Current";
     protected static final String HOME = "Home";
     protected static final String EDUCATION = "Education";
+    protected static final String EMPTY = "Empty";
 
     abstract Account getAccount(String type);
 }
